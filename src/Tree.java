@@ -16,7 +16,12 @@ public class Tree {
      *
      * @param root TreeNode类
      * @return int整型一维数组
+     *
      */
+    public static void main(String[] args) {
+        System.out.println("asd");
+        System.out.println("asd2");
+    }
     public int[] postorderTraversal(TreeNode root) {
         // write code here
 
