@@ -14,13 +14,14 @@ public class Tree {
     /**
      * 代码中的类名、方法名、参数名已经指定，请勿修改，直接返回方法规定的值即可
      *
-     * @param root TreeNode类
+     * @param args TreeNode类
      * @return int整型一维数组
      *
      */
     public static void main(String[] args) {
         System.out.println("asd");
         System.out.println("asd2");
+        System.out.println("asd3");
     }
     public int[] postorderTraversal(TreeNode root) {
         // write code here
