@@ -23,6 +23,7 @@ public class Tree {
         System.out.println("asd2");
         System.out.println("asd3");
         System.out.println("asd4");
+        System.out.println("master test");
     }
     public int[] postorderTraversal(TreeNode root) {
         // write code here
