@@ -6,7 +6,9 @@ public class Day3 {
 
 class Solution {
 
-
+    public static void main(String[] args) {
+        System.out.println("asdas");
+    }
     public static int reverse(int x) {
         int rev = 0;
         while (x != 0) {
@@ -432,34 +434,8 @@ class Solution {
 
 //    15
 
-    public ListNode mergeTwoLists(ListNode lists1, ListNode lists2) {
 
-        ListNode head = new ListNode(-1);
-        ListNode r = head;
 
-        while (lists1 != null && lists2 != null) {
-            if (lists1.val < lists2.val) {
-                r.next = lists1;
-                lists1 = lists1.next;
-            } else {
-                r.next = lists2;
-                lists2 = lists2.next;
-            }
-            r = r.next;
-        }
-
-        if (lists1 != null) {
-            r.next = lists1;
-        }
-        if (lists2 != null) {
-            r.next = lists2;
-        }
-
-        return head.next;
-    }
-    public static void main(String[] args) {
-
-    }
 }
 
 
