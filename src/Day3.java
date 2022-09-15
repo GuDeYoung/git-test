@@ -6,9 +6,10 @@ public class Day3 {
 
 class Solution {
     public static void main(String[] args) {
-        System.out.println("qweqwe");
-         System.out.println("dasda");
-        }
+        System.out.println("push1");
+        System.out.println("push2");
+        System.out.println("push3");
+    }
 
     public static int reverse(int x) {
         int rev = 0;
@@ -418,7 +419,7 @@ class Solution {
         ListNode p = newHead.next;
 
         while (pre != null && p != null) {
-            if(p.next ==null)
+            if (p.next == null)
                 break;
             ListNode temp = p.next;
             p.next = temp.next;
@@ -460,7 +461,7 @@ class Solution {
 
         return head.next;
     }
-    
+
 }
 
 
