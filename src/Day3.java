@@ -7,6 +7,7 @@ public class Day3 {
 class Solution {
     public static void main(String[] args) {
         System.out.println("qweqwe");
+         System.out.println("dasda");
         }
 
     public static int reverse(int x) {
