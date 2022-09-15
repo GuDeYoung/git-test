@@ -5,7 +5,9 @@ public class Day3 {
 }
 
 class Solution {
-
+    public static void main(String[] args) {
+        System.out.println("qweqwe");
+        }
 
     public static int reverse(int x) {
         int rev = 0;
@@ -457,9 +459,7 @@ class Solution {
 
         return head.next;
     }
-    public static void main(String[] args) {
-
-    }
+    
 }
 
 
