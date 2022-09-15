@@ -10,6 +10,7 @@ class Solution {
         System.out.println("push2");
         System.out.println("push3");
         System.out.println("pull1");
+        System.out.println("push4");
     }
 
     public static int reverse(int x) {
